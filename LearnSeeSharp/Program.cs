@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using LearnSeeSharp.Learn;
 
 namespace LearnSeeSharp
 {
@@ -14,11 +15,16 @@ namespace LearnSeeSharp
             //PlayerAttacksZombieWithOffHand(args);
             //RandomValues();
             //RandomBiomes();
-            
 
-            AnArrayOfZombies(100);
 
-            Thread.Sleep(5000);
+            //AnArrayOfZombies(100);
+
+
+            new LearnLists().TraitsPicker();
+
+            Console.ReadKey();
+
+            //Thread.Sleep(5000);
         }
 
 
