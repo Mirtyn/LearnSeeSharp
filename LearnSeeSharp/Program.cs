@@ -20,7 +20,7 @@ namespace LearnSeeSharp
             //AnArrayOfZombies(100);
 
 
-            new LearnLists().TraitsPicker();
+            new LearnReferences().Run();
 
             Console.ReadKey();
 
