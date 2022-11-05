@@ -20,7 +20,7 @@ namespace LearnSeeSharp
             //AnArrayOfZombies(100);
 
 
-            new LearnReferences().Run();
+            new LearnClasses().Run();
 
             Console.ReadKey();
 
