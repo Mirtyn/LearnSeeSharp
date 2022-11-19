@@ -20,9 +20,9 @@ namespace LearnSeeSharp
             //AnArrayOfZombies(100);
 
 
-            new LearnClasses().Run();
+            new LearnLinq().Run();
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
             //Thread.Sleep(5000);
         }
